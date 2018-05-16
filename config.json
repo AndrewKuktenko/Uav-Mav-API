@@ -1,0 +1,6 @@
+{
+	"port": "ttyUSB1",
+	"baudrate": 57600,
+	"autopilotType": "ardupilotmega",
+	"mavlinkVersion": "v1.0"
+}
