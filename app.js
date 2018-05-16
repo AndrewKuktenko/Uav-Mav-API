@@ -3,7 +3,7 @@ const SerialPort = require('serialport');
 const mavlink = require('mavlink');
 
 //Open serial port
-const port = new SerialPort(`/dev/${config.port}`, {
+const port = new SerialPort(`${config.port}`, {
 	baudRate: config.baudrate
 });
 

@@ -22,7 +22,7 @@ sudo apt-get install npm
 # example
 
 {
-	"port": "ttyUSB1",
+	"port": "/dev/ttyUSB*", # for Windows "port": "COM*",
 	"baudrate": 57600,
 	"autopilotType": "ardupilotmega",
 	"mavlinkVersion": "v1.0"
